@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavigationBar from './Components/Navigation/NavigationBar';
+import AboutPage from './Components/About/AboutPage';
+import ProjectPage from './Components/Projects/ProjectPage';
 
 import './App.scss';
 
@@ -11,13 +13,13 @@ import reportWebVitals from './reportWebVitals';
 const routing = (
         <Router>
                 <NavigationBar />
-                {/* <Switch>
-                        <Route path='/' exact component={LandingPage} />
+    <Switch>
+                        {/* <Route path='/' exact component={LandingPage} /> */}
                         <Route path='/About' exact component={AboutPage} />
-                        <Route path='/Services' exact component={ServicePage} />
-                        <Route path='/Contact' exact component={ContactPage} />
+                      <Route path='/Projects' exact component={ProjectPage} />
+                          {/* <Route path='/Contact' exact component={ContactPage} /> */}
                 </Switch>
-                <Footer /> */}
+                {/* <Footer /> */}
         </Router>
 
 )
