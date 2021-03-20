@@ -13,7 +13,7 @@ const AboutPage = () => {
 <React.Fragment>
     <div>
     <Container className="about-container">
-   <Row className='justify-content-md-center'>
+   <Row className='justify-content-center'>
        <Col xs={3} >
            <Image className='about-profile ' src={georgeImage} roundedCircle/>
        </Col>

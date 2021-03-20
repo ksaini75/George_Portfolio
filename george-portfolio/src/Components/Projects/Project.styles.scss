@@ -6,6 +6,8 @@ $bg-primary: #F3C150;
 $dark-black: #31374D;
 $white-color: #FFFF;
 
+
+
 .project-div{
     padding-bottom:10%;
 }
@@ -13,8 +15,6 @@ $white-color: #FFFF;
     margin-top: 8%;
     color: $bg-primary;
     text-align: center;
-
-
 }
 
 
@@ -38,12 +38,6 @@ $white-color: #FFFF;
     font-size: 25px;
 } 
 
-.project-image{
-  
-    /* margin-top:15%; */
- 
- }
-
  .project-tools{
 
     color: lightskyblue;
@@ -59,7 +53,7 @@ $white-color: #FFFF;
 }
 
 .view-project{
-    // text-transform: uppercase;
+
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -81,4 +75,22 @@ $white-color: #FFFF;
 
 a:hover{
     text-decoration: none !important;
+}
+
+@media only screen and (max-width:768px) {
+    .view-project{
+
+        width: 37vw;
+       
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .view-project{
+
+        width: 42vw;
+       
+    }
+
 }
