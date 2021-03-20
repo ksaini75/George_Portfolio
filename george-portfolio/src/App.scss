@@ -24,6 +24,10 @@ body {
     color: black;
 }
 
+//  .active {
+//     border: solid $bg-primary;
+//     border-radius: 10px;
+//   }
 
 .nav-top {
     background-color: white;
@@ -52,18 +56,11 @@ body {
     color: #F3C150;
 }
 
-.bg-primary {
-    background-color: $bg-primary !important;
-}
 
-#modal-textarea {
-    height: 150px;
-}
 
-.btn-secondary {
-    color: #000;
-    background-color: #FFFF;
-}
+
+
+
 
 
 .navbar-nav .nav-link {
