@@ -1,0 +1,59 @@
+$text: center;
+$line: 1.2;
+ $bg-primary: #F3C150;
+
+ .contact-header{
+     font-size: 3vw;
+     line-height: $line;
+     text-align:$text;
+     font-weight: bold;
+     font-family: 'Roboto';
+ }
+
+ .contact-form{
+     width: 35vw !important;
+     margin: 0 auto;
+     padding-bottom: 10%;
+    
+ }
+
+ .contact-info {
+    font-size: 1vw;
+    font-family: 'Roboto';
+}
+
+
+ .form-control{
+     border: 2px solid $bg-primary !important;
+ }
+
+
+
+ @media only screen and (max-width:768px) {
+
+    .contact-header {
+        font-size: 4.5vw;
+        line-height: $line;
+        text-align: $text;
+        font-weight: bold;
+        font-family: 'Roboto';
+    }
+
+   
+
+    .contact-info {
+        font-size: 3.3vw;
+        font-family: 'Roboto';
+    }
+
+   
+    .contact-form {
+        width: 70vw !important;
+        margin: 0 auto;
+    }
+
+  
+
+   
+
+}
