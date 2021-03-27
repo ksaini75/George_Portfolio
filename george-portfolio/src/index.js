@@ -16,7 +16,6 @@ const routing = (
         <Router>
                 <NavigationBar />
     <Switch>
-                        {/* <Route path='/' exact component={LandingPage} /> */}
                         <Route path='/About' exact component={AboutPage} />
                       <Route path='/Projects' exact component={ProjectPage} />
                      <Route path='/Contact' exact component={ContactPage} />
