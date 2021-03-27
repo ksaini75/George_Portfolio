@@ -41,7 +41,7 @@ class Footer extends Component {
                     <Col md={12}>
                         <span className="text-center">
                             <p className="copyright"> ©2021 by <br />
-                                <a href="https://github.com/ksaini75"> Karishma Saini </a><br />
+                                <a href="https://github.com/ksaini75" target="_blank" rel="noopener noreferrer"> Karishma Saini </a><br />
                            
                             </p>
                         </span>

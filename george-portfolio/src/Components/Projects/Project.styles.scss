@@ -8,51 +8,52 @@ $white-color: #FFFF;
 
 
 
-.project-div{
-    padding-bottom:10%;
+.project-div {
+    padding-bottom: 10%;
 }
-.project-title{
+
+.project-title {
     margin-top: 8%;
     color: $bg-primary;
     text-align: center;
 }
 
 
-.project-container{
+.project-container {
     margin-top: 5%;
     background-color: white !important;
-   
+
 }
 
 .project-jumbo {
-   
+
     background-color: white !important;
     margin: 0 !important;
     padding: 0 !important;
 
 }
 
-.project-subtitle{
+.project-subtitle {
     font-family: 'Nunito', sans-serif;
     color: black !important;
     font-size: 25px;
-} 
+}
 
- .project-tools{
+.project-tools {
 
     color: lightskyblue;
     text-align: center;
 }
 
-.project-content{
+.project-content {
     margin: 10px;
-    color:black;
+    color: black;
     font-size: 18px;
     text-align: center;
 
 }
 
-.view-project{
+.view-project {
 
     color: white;
     font-size: 20px;
@@ -62,35 +63,35 @@ $white-color: #FFFF;
     border-radius: 5px;
     margin: 0 auto;
     width: 15vw;
-   
+
 }
 
-.projectCard{
-  
+.projectCard {
+
     justify-content: center;
 
 }
 
 
 
-a:hover{
+a:hover {
     text-decoration: none !important;
 }
 
 @media only screen and (max-width:768px) {
-    .view-project{
+    .view-project {
 
         width: 37vw;
-       
+
     }
 
 }
 
 @media only screen and (max-width:560px) {
-    .view-project{
+    .view-project {
 
         width: 42vw;
-       
+
     }
 
 }
