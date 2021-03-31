@@ -7,6 +7,7 @@ import ProjectPage from './Components/Projects/ProjectPage';
 import ContactPage from './Components/ContactPage/ContactPage';
 import Footer from './Components/Footer/Footer';
 
+
 import './App.scss';
 
 import reportWebVitals from './reportWebVitals';
