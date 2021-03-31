@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import georgeImage from '../../Images/George-portfolio-image.jpg';
 
-import './AboutPage.scss';
+import './AboutPage.styles.scss';
 
 const AboutPage = () => {
 
