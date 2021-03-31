@@ -1,59 +1,124 @@
 $text: center;
 $line: 1.2;
- $bg-primary: #F3C150;
+$bg-primary: #F3C150;
 
- .contact-header{
-     font-size: 3vw;
-     line-height: $line;
-     text-align:$text;
-     font-weight: bold;
-     font-family: 'Roboto';
- }
 
- .contact-form{
-     width: 35vw !important;
-     margin: 0 auto;
-     padding-bottom: 10%;
-    
- }
+.contact-header {
+    margin-top: 15%;
+    font-size: 3vw;
+    line-height: $line;
+    text-align: $text;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 6.5rem;
+}
 
- .contact-info {
+.contact-form {
+    width: 35vw !important;
+    margin: 0 auto;
+    padding-bottom: 10%;
+
+}
+
+.contact-info {
     font-size: 1vw;
     font-family: 'Roboto';
 }
 
 
- .form-control{
-     border: 2px solid $bg-primary !important;
- }
+.form-control {
+    border: 2px solid $bg-primary !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f5b523 !important;
+    border-color: #f5b523 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $bg-primary !important;
+    border-color: $bg-primary !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $bg-primary !important;
+    border-color: $bg-primary !important;
+}
+
+.form-control:focus {
+
+    box-shadow: 0px 1px 5px #f4ce77 !important;
+}
+
+.btn-primary:focus {
+
+    box-shadow: 0px 1px 5px #f4ce77 !important;
+}
 
 
 
- @media only screen and (max-width:768px) {
+@media only screen and (max-width:1024px) {
+
 
     .contact-header {
-        font-size: 4.5vw;
+        margin-top: 21% !important;
+        font-size: 6.5vw;
         line-height: $line;
         text-align: $text;
         font-weight: bold;
         font-family: 'Roboto';
+        margin: 0;
     }
 
-   
+
+
+    .contact-info {
+        font-size: 5vw;
+        font-family: 'Roboto';
+    }
+
+
+    .contact-form {
+        margin-top: 13% !important;
+        width: 65vw !important;
+
+        margin-bottom: 28% !important;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .contact-header {
+        margin-top: 23% !important;
+        font-size: 9.5vw;
+        line-height: $line;
+        text-align: $text;
+        font-weight: bold;
+        font-family: 'Roboto';
+        margin: 0;
+    }
+
+
 
     .contact-info {
         font-size: 3.3vw;
         font-family: 'Roboto';
     }
 
-   
+
     .contact-form {
         width: 70vw !important;
         margin: 0 auto;
     }
 
-  
-
-   
 
 }
